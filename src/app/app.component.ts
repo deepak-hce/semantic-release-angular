@@ -18,5 +18,7 @@ export class AppComponent implements AfterViewInit {
 
   constructor() {}
 
-  ngAfterViewInit() {}
+  ngAfterViewInit() {
+    const someVar = 'someVar';
+  }
 }
